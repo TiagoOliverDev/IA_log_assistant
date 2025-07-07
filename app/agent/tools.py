@@ -1,0 +1,1 @@
+# Vázio por enquanto, ainda estou pensando quais tools utilizar aqui nesse agente
