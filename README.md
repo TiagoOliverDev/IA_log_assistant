@@ -49,19 +49,24 @@ log_assistant/
 - Chave da OpenAI válida  
 
 ### 1. Clone o repositório
+
 ```bash
-git clone https://github.com/seu-usuario/log_assistant.git
-cd log_assistant
+git clone https://github.com/TiagoOliverDev/IA_log_assistant
+cd IA_log_assistant
+```
 
+### 2. Crie arquivo .env e insira sua api key OpenAi
 
+```bash
 OPENAI_API_KEY=sk-sua-chave-aqui
+```
 
-3. Execute com Docker Compose
+### 3. Execute com Docker Compose
 
+```bash
 docker-compose up --build
 
 Depois, acesse: http://localhost:8501
-
 ```
 
 
@@ -82,6 +87,7 @@ Qual IP mais aparece nos logs?
 
 
 ### 🧩 Tecnologias Utilizadas
+
 ```bash
 LangChain
 
